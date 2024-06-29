@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: "Fira Sans", sans-serif;
+    /* margin: 0; */
+    padding: 0;
+    font-size: 16px;
+    /* margin: 20px; */
+}
+nav {
+    position: absolute;
+    top: 0px;
+    background-color: #ffffff;
+
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: auto;
+    max-width: 1320px;
+    
+}
+#mainarea{
+    margin: auto;
+}
+#Login {
+    background-color: #b1e50e ;
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    margin-left: 100px;
+    
+}
+#logo{
+    margin-right: 150px;
+}
+#applyNow {
+    background-color: rgb(20, 19, 19) ;
+    color: white;
+    font-weight: bolder;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    border: 0px;
+    margin-bottom: 10px;
+}
+.lastimg{
+    width: 250px;
+    height: 150px
+
+}
+
+a {
+    text-decoration: none;
+    color: black ;
+}
+div.container {
+    margin: auto;
+    max-width: 1320px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1320px;
+}
+.card {
+    padding: 20px;
+    margin: 0px 10px;
+    width: 300px;
+    height: 300px;
+
+    
+}
+h4{
+    font-size: 24px;
+}
+.cardcontainer{
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap; 
+
+}
+.cardcontainer:hover{
+    .card{
+        background-color: rgb(255, 153, 0);
+    }
+    .card:hover{
+        background-color: white;
+    }
+}
+
+div.card>img {
+    width: 150px;
+    height: 115px;
+    
+}
+div.main>h1 {
+    font-size: 50px;
+    padding-left: 20px;
+    color: gray;
+}
+
+div.card>h4{
+    color: gray;
+}
